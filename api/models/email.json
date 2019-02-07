@@ -1,0 +1,17 @@
+{
+  "customer_id": 1,
+  "name": "josla",
+  "email": "josla@example.com",
+  "subject": "HI THERE",
+  "message": "Hello"
+}
+
+{
+  "index": {
+    "fields": [
+      "customer_id"
+    ]
+  },
+  "name": "customer-index",
+  "type": "json"
+}

@@ -1,0 +1,51 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto); /* FREE GOOGLE FONT */
+
+.navbar{
+
+	font-size:700;
+	font-weight:.9rem;
+	letter-spacing:.1rem;
+	background:white !important;
+}
+.navbar-nav li{
+	padding-right:.7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:green;
+	padding-top:.8rem;
+
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:green;
+}
+.navbar-dark .navbar-toggler {
+  background-color:green;
+}
+.navbar-brand img{
+	margin-left:200px !important;
+	animation: adlib-logo-spin 10s infinite ;
+}
+
+
+
+@media(max-width:768px)
+{
+	.navbar-brand img{
+		margin-left:20px !important;
+	}
+}
+
+
+@keyframes adlib-logo-spin {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}

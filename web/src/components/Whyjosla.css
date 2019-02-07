@@ -1,0 +1,37 @@
+.choose{
+	background-color:rgba(208,208,208,0.64);
+}
+
+.media{
+	margin:15px 0;
+}
+.media i{
+	color:#fff;
+	text-align:center;
+	font-size:30px;
+	line-height:50px;
+	padding:0 10px;
+	border:solid 1px #009051;
+	border-radius:50%;
+	margin:0 10px;
+	background-color:#009051;
+	transition:1s;
+}
+.media i:hover{
+	color:#009051;
+	background-color:#fff;
+}
+.media h5{
+	font-weight:400px;
+}
+.whyjosla h2{
+  font-size:1.9rem;
+  font-weight:700;
+  text-transform:uppercase;
+  margin-bottom:.9rem;
+}
+.whyjosla img{
+  width:600px;
+  height:550px;
+  margin-top:0px;
+}

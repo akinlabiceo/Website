@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: Josla-web
+  host: josla
+  disk_quota: 1024M
+  command:  npm start
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack

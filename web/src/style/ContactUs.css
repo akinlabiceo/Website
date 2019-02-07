@@ -1,0 +1,78 @@
+.gray-bg {
+    background: #f7f9fc;
+}
+
+.deep-gray-bg {
+    background: #eff1ff;
+}
+
+.contact-address {
+    margin-bottom: 50px;
+}
+
+.contact-address a {
+    color: #585858;
+}
+.contact-area{
+  padding: 0px 0 0px;
+}
+.contact-area h3{
+  margin-top: 40px;
+}
+.contact-address a:hover {
+    color: #f39c12;
+}
+
+.contact-area .form-control {
+    border-radius: 0;
+    margin-bottom: 30px;
+    min-height: 40px;
+}
+
+.contact-area button {
+    background: #5d6b82 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-area button:hover {
+    background: #f39c12 none repeat scroll 0 0;
+    color: #fff;
+}
+.social-bookmark li {
+    display: inline;
+}
+
+.social-bookmark li a {
+    background: #009051 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    margin: 0 2px;
+    padding-top: 9px;
+    text-align: center;
+    width: 40px;
+}
+
+.social-bookmark li a:hover {
+    background: #f39c12 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.inline li {
+    display: inline;
+}
+
+.inline-block li {
+    display: inline-block;
+    padding: 5px 15px;
+}
